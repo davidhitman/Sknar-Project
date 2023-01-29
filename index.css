@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.Video-wrap video{
+    width: 100%;
+    height: auto;
+}
+#snap{
+    border: none;
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    border-radius:50%;
+    position: relative;
+    top:5px;
+    left:5px;
+}
+.button-frame{
+    border: 1px solid white;
+    border-radius:50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top:700px;
+    left: 700px;
+}
+.image{
+    border: 1px solid red;
+    position: absolute;
+    top: 100px;
+}
